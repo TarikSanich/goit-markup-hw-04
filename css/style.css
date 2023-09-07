@@ -318,13 +318,13 @@ body {
 }
 
 .box-social-icon {
-    .box-discription {
-            width: 40px;
-            height: 40px;
-            flex-shrink: 0;
-            border-radius: 50%;
-            background:fill: var(--IRIS, #4D5AE5);
-        }
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--IRIS, #4D5AE5);
+        
 }
 
 .social-icon {
