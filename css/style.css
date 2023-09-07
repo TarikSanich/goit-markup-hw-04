@@ -363,6 +363,23 @@ body {
         flex-shrink: 0;
 }
 
+.social-list-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: #4d5ae5; */
+    border-radius:50%
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-list-link:hover,
+:focus {
+background-color: #404bbf;
+}
+
+
 /* Our Portfolio */
 .list-portfolio {
     display: flex;
