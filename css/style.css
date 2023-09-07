@@ -318,6 +318,7 @@ body {
 .list-our {
     display: flex;
     column-gap: 24px;
+    list-style-type: none;
     
 }
 
@@ -334,6 +335,7 @@ body {
 }
 
 .list-our-item {
+    
     justify-content: center;
     width: 40px;
     height: 40px;
