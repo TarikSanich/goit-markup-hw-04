@@ -319,6 +319,7 @@ body {
     display: flex;
     column-gap: 24px;
     list-style-type: none;
+    justify-content: center;
     
 }
 
