@@ -96,8 +96,7 @@ body {
     display: flex;
     gap: 40px;
     margin-right: 40px;
-    position: relative;
-    color: #404bbf;
+    
 
 }
 .item-nav:last-child {
@@ -151,6 +150,8 @@ body {
     margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
+    color: #404bbf;
 }
 
 .menu-link:hover,
