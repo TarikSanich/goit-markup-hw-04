@@ -488,6 +488,12 @@ background-color: #404bbf;
 }
 
 /* footer */
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+}
+
+
 .footer-content {
     color: var(--cloud, #f4f4fd);
     font-size: 16px;
