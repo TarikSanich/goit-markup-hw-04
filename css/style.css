@@ -88,6 +88,16 @@ body {
     padding-bottom: 24px;
 }
 
+.menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .list {
     display: flex;
     column-gap: 42px;
@@ -96,6 +106,7 @@ body {
     display: flex;
     gap: 40px;
     margin-right: 40px;
+    color: #404bbf
     
 
 }
