@@ -88,8 +88,11 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+.menu-hero {
 
-.menu::after {
+}
+
+.menu-hero::after {
     content: '                      ';
     position: absolute;
     left: 0;
@@ -165,7 +168,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 40px;
+    margin-right: 40x;
+    padding-left: 0;
     padding-top: 24px;
     padding-bottom: 24px;
     position: relative;
