@@ -110,13 +110,17 @@ body {
     display: flex;
     gap: 40px;
     margin-right: 40px;
-    color: #404bbf
-    
-
 }
+
+
 .item-nav:last-child {
     margin-right: 0;
 }
+
+.item-link {
+    color: #404bbf;
+}
+
 .item-address {
     display: flex;
     gap: 40px;
