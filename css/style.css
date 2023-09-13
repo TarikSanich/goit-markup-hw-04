@@ -88,25 +88,14 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.menu-hero {
 
-}
-
-.menu-hero::after {
-    display: block;
-    content: '                      ';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
 
 .list {
     display: flex;
-    gap: 42px;
+    gap: 40px;
 }
+
+
 .item-nav {
     display: flex;
     gap: 40px;
@@ -151,7 +140,7 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 452px;
-    gap: 40px;
+    
 }
 .logo-word {
     color: var(--navyblue, #2e2f42);
@@ -353,14 +342,13 @@ body {
 
 .title-team {
     color: #2e2f42;
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
-    margin-top: 32px;
+    
 }
 
 .title-team-item {
@@ -379,7 +367,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 32px;
+    margin-bottom: 8px;
+   
 }
 
 .list-our {
